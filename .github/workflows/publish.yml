@@ -93,3 +93,4 @@ jobs:
       - name: Release
         run: |
           curl --upload-file ${{ env.APP_NAME }}_Windows.zip https://transfer.sh/${{ env.APP_NAME }}_Windows.zip
+#
